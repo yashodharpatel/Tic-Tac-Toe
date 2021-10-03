@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/CSS/style.css">
+    <link rel="stylesheet" href="/static/CSS/responsive.css" media="screen and (max-width: 450px)">
+    <script src="https://kit.fontawesome.com/676c98e749.js" crossorigin="anonymous"></script>
+    <script defer src="/static/Javascript/script.js"></script>
+    <script defer src="/static/Javascript/Human.js"></script>
+    <title>Human v/s Human • TIC TAC TOE</title>
+</head>
+
+<body oncontextmenu="disableRightclick()">
+    <div class="container">
+        <div class="box">
+            <div class="aboutButton-container">
+                <button class="btn aboutButton">About</button>
+            </div>
+            <div class="heading">Tic Tac Toe</div>
+            <div class="header">
+                <div class="turn"><span> X </span> is next</div>
+                <a href="/views/Human.html">
+                    <div class="resetButton">Reset</div>
+                </a>
+            </div>
+            <div class="board">
+                <table>
+                    <tr>
+                        <td class="cell" id="0"></td>
+                        <td class="cell" id="1"></td>
+                        <td class="cell" id="2"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="3"></td>
+                        <td class="cell" id="4"></td>
+                        <td class="cell" id="5"></td>
+                    </tr>
+                    <tr>
+                        <td class="cell" id="6"></td>
+                        <td class="cell" id="7"></td>
+                        <td class="cell" id="8"></td>
+                    </tr>
+                </table>
+            </div>
+            <div class="note">Note - Player with symbol 'X' always makes the first move.</div>
+            <div class="backpage">
+                <a href="/views/index.html"><button class="btn backpageButton"><i class="fas fa-arrow-left"></i>
+                        Back</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-box">
+            <div class="about-header">
+                <div class="about-heading">About</div>
+                <i class="fas fa-times closeButton"></i>
+            </div>
+            <div class="aboutText">
+                Minimalist TicTacToe game, Have Fun:)<br>
+                Developed by Yashodhar Patel.<br>
+                Contact me at <a href="https://www.linkedin.com/in/yashodhar-patel-2b57461b4/" target="blank">Yashodhar
+                    Patel</a>
+            </div>
+            <div class="okButton-container">
+                <button class="btn okButton">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="selectSymbol">
+        <div class="selectSymbol-box">
+            <div class="selectSymbol-heading">Select symbol for Player1:</div>
+            <div class="selectSymbol-buttons">
+                <button onClick="selectSymbol('X')" class="btn selectSymbolButton">X</button>
+                <button onClick="selectSymbol('O')" class="btn selectSymbolButton">O</button>
+            </div>
+            <div class="note">Note - Player with symbol 'X' always makes the first move.</div>
+        </div>
+    </div>
+
+    <div class="endgame">
+        <div class="endgame-box">
+            <div class="endgame-header">
+                <div class="endgame-heading">Message</div>
+                <a href="/views/Human.html"><i class="fas fa-times endgameCloseButton"></i></a>
+            </div>
+            <div class="endgameText">
+                <div class="winner-text"></div>
+                <div>Resetting the board.</div>
+            </div>
+            <div class="okButton-container">
+                <a href="/views/Human.html"><button class="btn endgameOkButton">OK</button></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="snackbar" id="snackbar">Right click is disabled!</div>
+</body>
+
+</html>

@@ -1,0 +1,51 @@
+.container {
+    background: rgb(0, 0, 0, 0.8) url(/src/background/mobileBackground.jpg);
+}
+
+.box,
+.about-box,
+.selectSymbol-box,
+.endgame-box {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.endgame-box {
+    width: 300px;
+}
+
+.backpage {
+    margin-top: 20px;
+}
+
+.heading {
+    font-size: 24px;
+    padding: 30px 0px;
+}
+
+.gamemode .gamemode-heading {
+    font-size: 19px;
+}
+
+.gamemodes .vsHuman,
+.gamemodes .vsComputer {
+    font-size: 18px;
+}
+
+.gamemodeButton {
+    --size: 18px;
+}
+
+.about-heading,
+.endgame-heading {
+    font-size: 19px;
+}
+
+.aboutText,
+.endgameText {
+    line-height: 29px;
+}
+
+.note {
+    font-size: 14px;
+}

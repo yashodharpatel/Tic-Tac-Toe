@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/CSS/style.css">
+    <link rel="stylesheet" href="/static/CSS/responsive.css" media="screen and (max-width: 450px)">
+    <script src="https://kit.fontawesome.com/676c98e749.js" crossorigin="anonymous"></script>
+    <script defer src="/static/Javascript/script.js"></script>
+    <title>TIC TAC TOE</title>
+</head>
+
+<body oncontextmenu="disableRightclick()">
+    <div class="container">
+        <div class="box">
+            <div class="aboutButton-container">
+                <button class="btn aboutButton">About</button>
+            </div>
+            <div>
+                <div class="heading">Welcome to Tic Tac Toe</div>
+                <div class="gamemode">
+                    <div class="gamemode-heading">Select Game mode:</div>
+                    <div class="gamemodes">
+                        <div>
+                            <div class="vsHuman">
+                                <label class=" gamemodeButton">
+                                    <input type="radio" name="gamemode" id="vsHuman" value="vsHuman" required>
+                                    <span class="label">Human v/s Human</span>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                            <div class="vsComputer">
+                                <label class=" gamemodeButton">
+                                    <input type="radio" name="gamemode" id="vsComputer" value="vsComputer" required>
+                                    <span class="label">Human v/s Computer</span>
+                                    <span class="checkmark"></span>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="nextpage">
+                <button class="btn nextpageButton"><i class="fas fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="about">
+        <div class="about-box">
+            <div class="about-header">
+                <div class="about-heading">About</div>
+                <i class="fas fa-times closeButton"></i>
+            </div>
+            <div class="aboutText">
+                Minimalist TicTacToe game, Have Fun:)<br>
+                Developed by Yashodhar Patel.<br>
+                Contact me at <a href="https://www.linkedin.com/in/yashodhar-patel-2b57461b4/" target="blank">Yashodhar
+                    Patel</a>
+            </div>
+            <div class="okButton-container">
+                <button class="btn okButton">OK</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="snackbar" id="snackbar">Right click is disabled!</div>
+</body>
+
+</html>
