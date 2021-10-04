@@ -35,14 +35,14 @@ nextpageButton.addEventListener('click', () => {
 });
 
 // Fuction to disable right click and to show snackbar to user
-// function disableRightclick() {
-//     document.addEventListener('contextmenu', e => e.preventDefault());
+function disableRightclick() {
+    document.addEventListener('contextmenu', e => e.preventDefault());
 
-//     let snackbar = document.getElementById("snackbar");
+    let snackbar = document.getElementById("snackbar");
 
-//     snackbar.className = "show";
+    snackbar.className = "show";
 
-//     setTimeout(function () {
-//         snackbar.className = snackbar.className.replace("show", "");
-//     }, 3000);
-// }
+    setTimeout(function () {
+        snackbar.className = snackbar.className.replace("show", "");
+    }, 3000);
+}

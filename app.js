@@ -12,7 +12,6 @@ app.use('/views', express.static('views'));
 app.use(express.urlencoded());
 
 // SERVE FAVICON
-// app.use(favicon(path.join(__dirname, 'src', 'icon', 'icon.ico')));
 app.use(favicon(path.join(__dirname, 'src', 'icon', 'icon.png')));
 
 // ENDPOINTS
