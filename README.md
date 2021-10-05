@@ -38,25 +38,30 @@
 <ul>
 	<li>Visual Studio Code</li>
 </ul>
+<br>
 
 <h2>Running node locally</h2>
-<ul><li>Install dependencies:</li><ul>
-<pre><code>npm install
-npm install -g nodemon</code></pre>
-<ul><li>Run node locally:</li><ul>
-<pre><code>nodemon app.js</code></pre>
+<ul>
+	<li>Install dependencies:</li>
+</ul>
+<pre>
+	<code>npm install npm install -g nodemon</code>
+</pre>
+
+<ul>
+    <li>Run node locally:</li>
+</ul>
+<pre>
+	<code>nodemon app.js</code>
+</pre>
 
 #
 
 AI works on the concept of a Minimax Algorithm.
 
-Regards to <a
-	href="https://www.freecodecamp.org/news/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37/"
-	target="blank">freecodecamp</a> and Youtube videos for guidance.
+Regards to <a href="https://www.freecodecamp.org/news/how-to-make-your-tic-tac-toe-game-unbeatable-by-using-the-minimax-algorithm-9d690bad4b37/" target="blank">freecodecamp</a> and Youtube videos for guidance.
 
-For specific details on the actual algorithm's implementation, you can find the code in <a
-	href="https://raw.githubusercontent.com/yashodharpatel/Tic-Tac-Toe/master/static/Javascript/Computer.js">Computer.js</a>
-or either you can Contact me.
+For specific details on the actual algorithm's implementation, you can find the code in <a href="https://raw.githubusercontent.com/yashodharpatel/Tic-Tac-Toe/master/static/Javascript/Computer.js">Computer.js</a> or either you can Contact me.
 
 Contact me: [patelyashodhar012@gmail.com](mailto:patelyashodhar012@gmail.com)
 
