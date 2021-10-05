@@ -44,9 +44,8 @@
 <ul>
 	<li>Install dependencies:</li>
 </ul>
-<pre>
-	<code>npm install npm install -g nodemon</code>
-</pre>
+<pre><code>npm install 
+npm install -g nodemon</code></pre>
 
 <ul>
     <li>Run node locally:</li>
