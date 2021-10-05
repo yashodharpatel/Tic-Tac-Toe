@@ -1,7 +1,7 @@
 {
   "name": "tic-tac-toe",
   "version": "1.0.0",
-  "description": "",
+  "description": "Play our favorite childhood game against your friends or an unbeatable AI (Minimax algorithm). No more description, You've played it tone times on the last page of your books.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js",

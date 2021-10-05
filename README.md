@@ -41,16 +41,23 @@
 <br>
 
 <h2>Running node locally</h2>
-<ul>
-	<li>Install dependencies:</li>
-</ul>
-<pre><code>npm install 
-npm install -g nodemon</code></pre>
 
-<ul>
-    <li>Run node locally:</li>
-</ul>
-<pre><code>nodemon app.js</code></pre>
+To run the app simply follow these steps:
+
+<ol>
+<li>Clone the repository.
+<pre><code>git clone https://github.com/yashodharpatel/Tic-Tac-Toe.git</code></pre></li>
+
+<li>Open the terminal or Command Prompt and navigate to the project directory.</li>
+
+<li>Install dependencies defined in package.json file:
+<pre><code>npm install</code></pre></li>
+
+<li>Run node locally to start application:
+<pre><code>npm start</code></pre></li>
+
+<li>Point your browser to <a href="http://localhost:8000">http://localhost:8000</a></li>
+</ol>
 <br>
 
 AI works on the concept of a Minimax Algorithm.
