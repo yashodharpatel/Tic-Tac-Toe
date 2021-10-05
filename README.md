@@ -1,7 +1,7 @@
 # Tic-Tac-Toe
 
 <div align="center">
-	<a href="https://github.com/yashodharpatel/Tic-Tac-Toe/blob/master/src/icon/icon.png?raw=true" target="_blank">
+	<a href="https://github.com/yashodharpatel/Tic-Tac-Toe/blob/master/src/icon/icon.png?raw=true" target="blank">
 		<img src="https://github.com/yashodharpatel/Tic-Tac-Toe/blob/master/src/icon/icon.png?raw=true"
 			alt="tictactoe icon" width=150px>
 	</a>
