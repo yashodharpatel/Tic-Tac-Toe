@@ -9,11 +9,11 @@
 </div>
 
 <p>Play our favorite childhood game against your friends or an unbeatable AI (Minimax algorithm). No more description,
-	You've played it a lot of times on the last page of your books :)
+	You've played it tone times on the last page of your books :)
 </p>
 <br>
 
-<p>Released version (Website):</p>
+<p>Release version (Website):</p>
 
 <blockquote>
 	<a href="https://gameplaytictactoe.herokuapp.com/" target="blank">gameplaytictactoe.herokuapp.com</a>
