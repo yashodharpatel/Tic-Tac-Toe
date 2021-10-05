@@ -50,11 +50,7 @@ npm install -g nodemon</code></pre>
 <ul>
     <li>Run node locally:</li>
 </ul>
-<pre>
-	<code>nodemon app.js</code>
-</pre>
-
-#
+<pre><code>nodemon app.js</code></pre>
 
 AI works on the concept of a Minimax Algorithm.
 
