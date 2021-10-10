@@ -16,7 +16,7 @@
 <p>Release version (Website):</p>
 
 <blockquote>
-	<a href="https://gameplaytictactoe.herokuapp.com/" target="blank">gameplaytictactoe.herokuapp.com</a>
+	<a href="https://gameplaytictactoe.herokuapp.com/" target="blank">https://gameplaytictactoe.herokuapp.com</a>
 </blockquote>
 <br>
 
